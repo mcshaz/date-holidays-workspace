@@ -1,0 +1,18 @@
+{
+  "include": ["./**/*.ts"],
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "lib": ["ES2020"],
+    "module": "ES2020",
+    "moduleResolution": "Node",
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "target": "ES2020",
+    "forceConsistentCasingInFileNames": true
+  }
+}

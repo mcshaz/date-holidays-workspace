@@ -1,0 +1,23 @@
+{
+  "name": "date-holidays-workspace",
+  "version": "1.0.0",
+  "description": "workspace for date-holidays",
+  "workspaces": [
+    "packages/caldate",
+    "packages/date-holidays",
+    "packages/date-holidays-parser"
+  ],
+  "main": "packages/date-holidays/src/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Brent McSharry",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/plugin-transform-runtime": "^7.19.6",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/runtime": "^7.20.7",
+    "core-js": "^3.27.1"
+  }
+}
